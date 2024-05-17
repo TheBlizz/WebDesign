@@ -1,0 +1,237 @@
+@media only screen and (min-width: 768px){            
+
+            body
+            {
+                font-family: Rubik;
+            }
+            .gradient-button
+            {
+                background: linear-gradient(to top, #7B2D26, #95372F);
+                color: white;
+                margin: 5px;
+                padding: 10px 20px;
+                cursor: pointer;
+                border: none;
+                border-radius: 20px;
+                text-align: center;
+                display: inline-block;
+                font-size: 16px;
+                box-shadow: 0px 4px 6px rgba(0,0,0,0.25);
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+                font-weight: bold;
+            }
+            .gradient-button:hover
+            {
+                background: linear-gradient(to bottom, black, darkslategrey);
+                color: white;
+                margin: 5px;
+                padding: 10px 20px;
+                cursor: pointer;
+                border: none;
+                border-radius: 20px;
+                text-align: center;
+                display: inline-block;
+                font-size: 16px;
+                box-shadow: 0px 4px 6px rgba(0,0,0,0.25);
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+                font-weight: bold;
+                
+            }
+            .nav-bar
+            {
+                background: linear-gradient(to top, #7B2D26, #95372F);
+                padding-top: 5px;
+                margin: 0;
+                top: 0;
+                width: 100%;
+                position: fixed;
+                box-sizing: border-box;
+                text-align: center;
+                box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+                z-index: 2;
+            }
+            .bottom-nav-bar
+            {
+                background: linear-gradient(to top, #7B2D26, #95372F);
+                padding: 5px;
+                position: fixed;
+                width: 100%;
+                box-sizing: border-box;
+                bottom: 0;
+                text-align: center;
+                box-shadow: 0px -4px 6px rgba(0,0,0,0.1);
+            }
+            .title-header
+            {
+                color: white;
+                margin: 2px;
+                padding: 5px;
+                cursor: pointer;
+                border: none;
+                text-align: left;
+                display: inline-block;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+                font-weight: bold;
+                float: left;
+            }
+            .content
+            {
+                margin-top: 72px;
+                line-height: 10px;
+                
+            }
+            img
+            {
+                box-sizing: border-box;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-top: 5%;
+            }
+            
+            #links
+            {
+                float: right;
+                list-style-type: none;
+                color: white;
+                font-size: 20px;
+                margin-top: 16px;
+            }
+            li{
+                display: inline;
+                margin-right: 20px;
+            }
+            th
+            {
+                background: linear-gradient(to top, #7B2D26, #95372F);
+                padding: 20px;
+                box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+                color: white;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            }
+            table td + td
+            {
+                border-left:1px solid black;
+            }
+            
+}
+@media only screen and (max-width: 768px)
+{
+    body
+            {
+                font-family: Rubik;
+            }
+            .gradient-button
+            {
+                background: linear-gradient(to top, #7B2D26, #95372F);
+                color: white;
+                margin: 5px;
+                padding: 10px 20px;
+                cursor: pointer;
+                border: none;
+                border-radius: 20px;
+                text-align: center;
+                display: inline-block;
+                font-size: 16px;
+                box-shadow: 0px 4px 6px rgba(0,0,0,0.25);
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+                font-weight: bold;
+            }
+            .gradient-button:hover
+            {
+                background: linear-gradient(to bottom, black, darkslategrey);
+                color: white;
+                margin: 5px;
+                padding: 10px 20px;
+                cursor: pointer;
+                border: none;
+                border-radius: 20px;
+                text-align: center;
+                display: inline-block;
+                font-size: 16px;
+                box-shadow: 0px 4px 6px rgba(0,0,0,0.25);
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+                font-weight: bold;
+                
+            }
+            .nav-bar
+            {
+                background: linear-gradient(to top, #7B2D26, #95372F);
+                padding-top: 5px;
+                margin: 0;
+                top: 0;
+                width: 100%;
+                position: fixed;
+                box-sizing: border-box;
+                text-align: center;
+                box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+                z-index: 2;
+            }
+            .bottom-nav-bar
+            {
+                background: linear-gradient(to top, #7B2D26, #95372F);
+                padding: 5px;
+                position: fixed;
+                width: 100%;
+                box-sizing: border-box;
+                bottom: 0;
+                text-align: center;
+                box-shadow: 0px -4px 6px rgba(0,0,0,0.1);
+            }
+            .title-header
+            {
+                color: white;
+                margin: 2px;
+                padding: 0px;
+                cursor: pointer;
+                border: none;
+                text-align: center;
+                display: inline-block;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+                font-weight: bold;
+            }
+            .content
+            {
+                margin-top: 72px;
+                line-height: 10px;
+                
+            }
+            img
+            {
+                box-sizing: border-box;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-top: 5%;
+            }
+            
+            #links
+            {
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                list-style-type: none;
+                color: white;
+                font-size: 20px;
+                margin-top: 8px;
+            }
+            li{
+                display: inline;
+                margin-right: 20px;
+            }
+            th
+            {
+                background: linear-gradient(to top, #7B2D26, #95372F);
+                padding: 20px;
+                box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+                color: white;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            }
+            table td + td
+            {
+                border-left:1px solid black;
+            }
+}
+            
